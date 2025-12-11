@@ -27,7 +27,7 @@ export const BookAudit: React.FC = () => {
           <div className="relative z-10">
             {/* Headline */}
             <h2 className="text-3xl md:text-4xl font-black text-white mb-3">
-              Ready to Find Your Leaks?
+              Ready to Fix Your Skool Funnel?
             </h2>
             <p className="text-xl text-slate-300 mb-2">
               Pick a time. Show up. Get clarity.

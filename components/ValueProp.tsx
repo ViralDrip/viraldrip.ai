@@ -25,7 +25,7 @@ export const ValueProp: React.FC = () => {
                 Book a free<br />30-min call
               </p>
               <p className="text-slate-500 text-sm mt-3">
-                We'll share screens, walk through your current funnel, and I'll show you exactly where leads are falling off.
+                We'll share screens, walk through your Skool funnel, and I'll show you exactly where leads are falling off.
               </p>
             </div>
 
@@ -57,8 +57,8 @@ export const ValueProp: React.FC = () => {
                     <Map className="w-4 h-4 text-green-600" />
                   </div>
                   <div>
-                    <p className="font-bold text-slate-900">Custom Funnel Map</p>
-                    <p className="text-sm text-slate-500">A visual blueprint for your Skool</p>
+                    <p className="font-bold text-slate-900">Custom Skool Funnel Map</p>
+                    <p className="text-sm text-slate-500">A visual blueprint for your community</p>
                   </div>
                 </div>
 

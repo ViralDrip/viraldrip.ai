@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
 
         {/* Single CTA */}
         <Button size="sm" onClick={scrollToBooking}>
-          Book Free Audit
+          Free Skool Audit
         </Button>
       </div>
     </header>

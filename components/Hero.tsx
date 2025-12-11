@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
               {/* CTA */}
               <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-5">
                 <Button size="lg" onClick={() => document.getElementById('book-audit')?.scrollIntoView({ behavior: 'smooth' })}>
-                  Book Your Free Audit
+                  Get Your Free Skool Audit
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
@@ -85,7 +85,7 @@ export const Hero: React.FC = () => {
                   className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md"
                 />
                 <p className="text-sm text-slate-600">
-                  <span className="font-semibold text-slate-900">I'm Jonas</span> — I'll personally audit your funnel
+                  <span className="font-semibold text-slate-900">I'm Jonas</span> — I'll personally audit your Skool funnel
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
               <div className="text-center mb-4">
                 <div className="inline-flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-sm">
                   <Zap className="w-4 h-4 text-brand" />
-                  <span className="text-sm font-bold text-slate-700">Your funnel with ViralDrip</span>
+                  <span className="text-sm font-bold text-slate-700">Your Skool funnel with ViralDrip</span>
                   <span className="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
                 </div>
               </div>
