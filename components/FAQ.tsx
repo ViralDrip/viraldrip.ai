@@ -45,8 +45,9 @@ export const FAQ: React.FC = () => {
               className="bg-white border border-slate-200 rounded-xl overflow-hidden"
             >
               <button
-                className="w-full flex justify-between items-center p-5 text-left focus:outline-none"
+                className="w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 rounded-xl"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                aria-expanded={openIndex === index}
               >
                 <span className="font-semibold text-slate-900 pr-4">{item.q}</span>
                 <div className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-colors ${openIndex === index ? 'bg-brand text-white' : 'bg-slate-100 text-slate-400'}`}>

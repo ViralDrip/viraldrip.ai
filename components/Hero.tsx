@@ -14,8 +14,8 @@ export const Hero: React.FC = () => {
       <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-violet-500/5 rounded-full blur-[120px]"></div>
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-brand/5 rounded-full blur-[100px]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
 
           {/* Left Column - Copy */}
           <div className="text-center lg:text-left">

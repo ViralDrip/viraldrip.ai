@@ -22,8 +22,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} ViralDrip.ai. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-brand transition-colors">Privacy</a>
-            <a href="#" className="hover:text-brand transition-colors">Terms</a>
+            <a href="mailto:jonas@viraldrip.ai" className="hover:text-brand transition-colors">Contact</a>
           </div>
         </div>
       </div>
