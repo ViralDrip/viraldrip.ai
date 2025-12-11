@@ -92,7 +92,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Right Column - Stacked Cards Funnel */}
-          <div className="relative animate-fade-up delay-200">
+          <div className="relative animate-fade-up delay-200 mt-8 lg:mt-0">
             <div className="relative max-w-[420px] mx-auto">
 
               {/* Glow behind funnel */}

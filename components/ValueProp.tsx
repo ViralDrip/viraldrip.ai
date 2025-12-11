@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Search, Map, ListChecks } from 'lucide-react';
+import { ArrowRight, ArrowDown, Search, Map, ListChecks } from 'lucide-react';
 
 export const ValueProp: React.FC = () => {
   return (
@@ -32,7 +32,8 @@ export const ValueProp: React.FC = () => {
             {/* Arrow */}
             <div className="flex items-center justify-center">
               <div className="w-14 h-14 rounded-full bg-brand flex items-center justify-center shadow-lg shadow-brand/30">
-                <ArrowRight className="w-7 h-7 text-white" />
+                <ArrowDown className="w-7 h-7 text-white md:hidden" />
+                <ArrowRight className="w-7 h-7 text-white hidden md:block" />
               </div>
             </div>
 

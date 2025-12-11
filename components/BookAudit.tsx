@@ -19,7 +19,7 @@ export const BookAudit: React.FC = () => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Main CTA Card */}
-        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-4 sm:p-8 md:p-12 text-center relative overflow-hidden">
           {/* Background decoration */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-brand/20 rounded-full blur-[80px]"></div>
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-violet-500/20 rounded-full blur-[80px]"></div>
@@ -53,11 +53,11 @@ export const BookAudit: React.FC = () => {
             </div>
 
             {/* Calendly Embed */}
-            <div className="bg-white rounded-2xl overflow-hidden">
+            <div className="bg-white rounded-2xl overflow-hidden p-2 sm:p-4">
               <div
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/jonas-algowerk/30min-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&text_color=0f172a&primary_color=f97316"
-                style={{ minWidth: '320px', height: '700px' }}
+                style={{ minWidth: '280px', height: '700px' }}
               />
             </div>
 
